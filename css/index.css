@@ -1,0 +1,72 @@
+.bg1{background: url(../img/banner.png) top center no-repeat;background-size: 100% 90%;}
+.bg1 h2{text-align: center;padding-top: 120px;}
+.bg1 h3{color:white;line-height:50px;margin-top:40px;}
+.bg1 .information{color:silver;}
+.bg1 .information .updateUserNum{float:left;width:25%;}
+.bg1 .information .updateSchedule{float:left;width:50%;text-align: center;}
+.progress{width:100%;height:25px;background-color: white;position: relative;}
+.progress .clrProgress{width:6%;height:100%;background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-color:#F37B1D;position: absolute;top:0;left:0;color:white;text-align: center;}
+.bg1 .information .updateRate{float:left;width:25%;text-align: right;}
+@media screen and (max-width: 450px){
+    .bg1 .information .updateUserNum{float: none;width: 100%;text-align: center;}
+    .bg1 .information .updateSchedule{float: none;width:100%;}
+    .bg1 .information .updateSchedule{width: 80%;margin:10px auto;}
+    .bg1 .information .updateRate{float: none;width:100%;text-align: center;}
+}
+.bg1 .textCenter{padding: 20px 0 40px 0;}
+.bg1 .coinBrief{padding-top: 60px;}
+.bg1 .coinBrief ul li{width:12.5%;text-align: center;}
+.bg1 .coinBrief ul li dl{padding: 0 10px;}
+.bg1 .coinBrief ul li dl dd{color:#13afbe;word-break: break-all;}
+.part{padding: 100px 0 50px 0;}
+.part h2{padding: 15px 0;}
+/*static--*/
+/*static--intro--*/
+.part .intro{padding-top: 30px;}
+.part .intro .fl{width:50%;text-align: center;}
+.part .intro .fl img{height: auto;width:70%;vertical-align: middle;}
+.part .intro .fl p{text-align: left;padding: 0 70px 0 20px;line-height: 1.6em;color:#698681;}
+@media screen and (max-width: 800px) {
+    .part .intro .fl{width:100%;}
+}
+/*static----intro*/
+.part .advantage ul li{width:25%}
+@media screen and (max-width: 450px) {
+    .part .advantage ul li{width:100%;}
+}
+.part .advantage ul li dl{padding: 0 10px;}
+.part .advantage ul li dl dt{text-align: center;color:#00B9FF;font-weight: 600;line-height: 40px;}
+.part .advantage ul li dl dd{color:#698681;line-height: 1.5em;}
+.part.bg2{background-color: #00B9FF;}
+.part.bg2 .textCenter{padding-top:40px;color:white;font-weight: 600;}
+.part.bg2 .textCenter a{color:#00B9FF;margin-top: 20px;font-size: small;}
+.part.bg2 .textCenter a:hover{color:grey;}
+
+
+.part .press .hul li{width:25%;}
+.part .press .hul li div{padding: 0 15px;}
+.part .press .hul li div a{display: block;height: 100%;width: 100%;border:1px solid silver;}
+/*static---press*/
+/*static--*/
+/*anime--*/
+/*anime----intro*/
+@keyframes animeMove {
+    from {transform: translate(-100%,0);}
+    to {transform: translate(0,0);}
+}
+@keyframes animeView {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.part.onAnime .animeMove{
+    animation:animeMove 1s;
+    transform: translate(0,0);
+}
+.part.offAnime .animeMove{
+    transform: translate(-300%,0);
+}
+.part.onAnime .animeOpacity{
+    animation: animeView 3s;
+}
+.part.offAnime .animeOpacity{opacity: 0;}
+/*--anime*/

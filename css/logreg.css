@@ -1,0 +1,13 @@
+.logreg{padding-top:30px;}
+.logreg h2{line-height: 2em;color:#3bb4f2;}
+.logreg a{color:#3bb4f2;margin-left: 5px;}
+.logreg .mainbody{width:310px;margin:0 auto;border:1px solid rgb(230, 230, 230);padding: 20px;}
+.logreg .mainbody .mainrow{padding: 5px 0;}
+.logreg .mainbody .mainrow input[type='text'],.logreg .mainbody .mainrow input[type="password"]{padding: 10px 0;text-indent:1em;width:100%;border:1px solid silver;font-size: 1em;font-weight: 500;}
+.logreg .mainbody .mainrow input.inputVerify{width:50%;}
+.logreg .mainbody .mainrow input.getVerify{width:40%;margin-left: 5%;padding: 10px 0;text-align: center;font-size: 1em;background-color:#e6e6e6;border:1px solid #e6e6e6;cursor: pointer;}
+.logreg .mainbody .mainrow input.getVerify:hover{background-color: silver;}
+.logreg .mainbody .mainrow input[type="submit"]{width:100%;padding: 10px 0; text-align: center;font-size: 1.1em;background-color: #3bb4f2;border:1px solid #3bb4f2;cursor: pointer;color:white;}
+.logreg .mainbody .mainrow input[type="submit"]:hover{background-color: #00B9FF;}
+.logreg .mainbody .mainrow .aBtnReg{width:100%;padding: 10px 0; text-align: center;font-size: 1.1em;font-weight: 500;background-color: #F37B1D;border:1px solid #F37B1D;cursor: pointer;color:white;display: block;margin-left: 0;}
+.logreg .tips{padding-top: 10px;}

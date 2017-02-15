@@ -1,0 +1,18 @@
+.pageBody{padding: 100px 0 30px 0;background-color: rgb(242, 245, 247);}
+.leftPage{width:280px;margin-right: 20px;background-color: white;padding-top: 20px;float: left;}
+.leftPage>div>h2 {font-size: 1.2em;line-height: 50px;border-top:2px solid #3bb4f2;background: #f5f5f5;color:#3bb4f2;text-indent: 5px;}
+.leftPage>div>ul{padding: 10px 0;}
+.leftPage>div>ul li a{display: block;width: 100%;line-height:40px;text-align: center;color: #0e90d2;}
+.leftPage>div>ul li a:hover{background-color: #698681;color:#13afbe;}
+
+.rightPage{background-color: white;padding-top: 20px;width:900px;float: left;}
+.rightPage .content{padding: 0 20px;}
+.rightPage .content .crumb{font-size: 14px;padding-bottom: 30px;}
+.rightPage .content .crumb a{color:#0e90d2;}
+.rightPage .content .crumb a:hover{color:#00B9FF;}
+.rightPage .content .crumb .bookNameTag{font-size: 12px;letter-spacing: -2px;margin-left: 5px;margin-right: 5px;}
+.rightPage .content .pageUL ul{width:840px;margin:0 auto;}
+.rightPage .content .pageUL ul li{width:280px;text-align: center;}
+.rightPage .content .pageUL ul li dl dt{color:black;padding: 5px 0;font-weight: bold;}
+.rightPage .content .pageUL ul li dl dd{color:rgb(255, 127, 0);padding: 10px 0;}
+.rightPage .content .info h2{font-size: 20px;font-weight: 500;}
